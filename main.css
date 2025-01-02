@@ -1,0 +1,45 @@
+/* Reset */
+
+*,
+a {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+/* End reset */
+
+/* Container */
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+/* End container */
+
+/* header */
+header {
+  background: #202052;
+  color: #ffffff;
+  padding: 16px 0;
+}
+/* End header */
+
+/* header, nav, a */
+header nav a {
+  display: inline;
+  margin-left: 16px;
+  font-size: 18px;
+  color: #ffffff;
+}
+/* End nav, header, a */
+
+/* header, .container */
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* End header, .container */
