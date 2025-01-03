@@ -8,6 +8,13 @@ a {
   text-decoration: none;
 }
 
+/* body */
+body{
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+}
+
+/* end body */
 /* End reset */
 
 /* Container */
@@ -16,6 +23,7 @@ a {
   width: 100%;
   margin: 0 auto;
 }
+
 /* End container */
 
 /* header */
@@ -24,8 +32,17 @@ header {
   color: #ffffff;
   padding: 16px 0;
 }
+
 /* End header */
 
+/* header, font, h1 */
+
+header .container h1, nav a{
+  font-family: "Eater", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* end header, font, h1 */
 /* header, nav, a */
 header nav a {
   display: inline;
@@ -33,13 +50,70 @@ header nav a {
   font-size: 18px;
   color: #ffffff;
 }
+
 /* End nav, header, a */
 
 /* header, .container */
-header .container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+header .container,
+main .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* End header, .container */
+
+/* marcas, img */
+.marcas img {
+  height: 24px;
+}
+
+/* End marcas, img */
+
+/* marcas,ul, li */
+.marcas ul li {
+  list-style: none;
+  display: inline;
+  margin-right: 10px;
+}
+
+/* End marcas, ul, li */
+
+/* main, .container */
+main .container {
+  align-items: flex-start;
+}
+
+/* Ende main, .container */
+
+/* main */
+main {
+  padding: 16px 0;
+  background: hwb(240 98% 1.6% / 0.37);
+  color: #202052;
+}
+
+/* end main */
+
+/* .logo */
+.logo {
+  margin-right: 32px;
+}
+
+/* end .logo */
+
+/* aside, h2 */
+aside h2{
+  font-family: "Revalia", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* end aside, h2*/
+
+
+/* aside, h2, p */
+aside > h2, aside > p{
+  margin-bottom: 24px;
+}
+/* end aside, h2, p */
