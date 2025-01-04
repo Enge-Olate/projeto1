@@ -108,6 +108,9 @@ aside > p {
 }
 
 #contato h2{
+  font-family: "Revalia", serif;
+  font-weight: 400;
+  font-style: normal;
   margin-bottom: 32px;
 }
 
@@ -117,7 +120,11 @@ aside > p {
 }
 
 section h3{
+  font-family: "Revalia", serif;
+  font-weight: 400;
+  font-style: normal;
   margin-bottom: 16px;
+  
 }
 
 form input, form textarea, form button {
@@ -153,3 +160,12 @@ a img{
 }
 
 /* end main */
+
+/* footer */
+footer{
+  background: #202052;
+  color: #ecf0f1;
+  padding: 16px 0;
+  text-align: center;
+}
+/* end footer */
