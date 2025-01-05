@@ -137,6 +137,7 @@ form input, form textarea, form button {
 
 form textarea{
   height: 180px;
+  resize: none;
 }
 
 form button{
